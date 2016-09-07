@@ -55,6 +55,21 @@ int main(int argc, const char * argv[]) {
                 
                 [contactList1 listContacts];
             }
+            
+//        if ([menuInput rangeOfString:@"show"].length>0) {
+//           
+//            NSString *showIndex = [menuInput substringFromIndex: [menuInput length]-2];
+//            
+//            NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+//            f.numberStyle = NSNumberFormatterDecimalStyle;
+//            NSNumber *showContact = [f numberFromString: showIndex];
+//            
+//            NSUInteger i = [contactList1.contactArray indexOfObject:showContact];
+//            for (Contact *contact1 in [contactList1.contactArray indexOfObject:i]) {
+//                NSLog(@"%@", contact1.contactName);
+//            }
+        
+        }
         
         }
         
